@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="RestaurantManager.UniversalWindows.OrderPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RestaurantManager.UniversalWindows"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="480"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="1" Grid.Column="1" 
+                   x:Name="txtSpecialRequests" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="Special Requests:" 
+                   Foreground="White"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" 
+                   x:Name="txtOrderItems" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="Order Items:" 
+                   Foreground="White"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" 
+                   x:Name="txtAddToOrder" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="**Add to Order**" 
+                   Foreground="White" />
+        <TextBlock Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"
+                   x:Name="txtSubmitOrder" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="**Submit Order**" 
+                   Foreground="White" />
+    </Grid>
+</Page>

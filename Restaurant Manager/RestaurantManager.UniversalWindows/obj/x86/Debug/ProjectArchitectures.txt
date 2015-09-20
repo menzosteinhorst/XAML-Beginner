@@ -1,0 +1,1 @@
+C:\Users\menzos\Documents\GitHub\XAML-Beginner\Restaurant Manager\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
